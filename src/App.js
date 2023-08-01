@@ -1,15 +1,15 @@
 import SobreMim from "./pages/SobreMim";
 import Home from "./pages/Home";
+import { BrowserRouter } from "react-router-dom";
 
 console.log(window.location);
 
-const pagina = window.location.pathname === "/" ? <Home /> : <SobreMim />
 
 function App() {
   return (
-    <div className="App">
-      {pagina}
-    </div>
+    <BrowserRouter>
+      
+    </BrowserRouter>
   );
 }
 

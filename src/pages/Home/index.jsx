@@ -1,12 +1,18 @@
 import React from 'react'
-import Banner from 'components/Banner'
+import styles from './home.module.css'
+
+import posts from 'json/posts.json'
+import Post from 'components/Post'
 
 const Home = () => {
   return (
-    <main>
-      <Banner />
-      <div>Olá Mundo</div>
-    </main>
+      <ul className={styles.posts}>
+        {posts.map(post  => (
+          <li key={post.id}>
+            <Post post={post}/>
+          </li>
+        ))}
+      </ul>
   )
 }
 

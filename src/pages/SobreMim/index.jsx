@@ -1,8 +1,9 @@
+
 import React from 'react'
 
 const SobreMim = () => {
   return (
-    <div>Sobre Mim...</div>
+      <h1>Sobre mim</h1>
   )
 }
 

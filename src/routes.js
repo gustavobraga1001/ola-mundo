@@ -6,7 +6,7 @@ import Menu from "./components/Menu";
 console.log(window.location);
 
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
       <Menu />
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;

@@ -1,8 +1,12 @@
 import React from 'react'
+import Banner from 'components/Banner'
 
 const Home = () => {
   return (
-    <div>Olá Mundo</div>
+    <main>
+      <Banner />
+      <div>Olá Mundo</div>
+    </main>
   )
 }
 
